@@ -79,7 +79,7 @@ transition: 0.12;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 30px;  
 }
 
 .imagens-petz{
@@ -184,15 +184,68 @@ transition: 0.12;
 .terceira-section{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 85%;
     margin: 0 auto;
-    justify-content: space-between;
     margin-bottom: 128px;
-    margin-top: 20px;
+    margin-top: 20px; 
+    padding: 16px 32px;
 }
 
-.terceira-section{
+.conteudos{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 50px;
+    padding: 16px 32px;
+    
+}
+
+.dpoimento{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dpoimento h4 {
+    width: 100%;
+    text-align: left;
+}
+
+.rodape{
+    display: flex;
+    padding: 32px;
+    background-color: #ff8800;
+    box-shadow: 0px 2px 10px #000;
+    flex-direction: row;
+}
+
+.principal-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoBranca{
+    width: 20%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    
 }
