@@ -249,3 +249,63 @@ transition: 0.12;
     flex-direction: column;
     
 }
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logomarca {
+        width: 40vw;
+    }
+
+    .links-navegacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .painel-principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .anuncio-petz {
+        width: 100%;
+        align-items: center;
+    }
+
+    .Titulo {
+        font-size: 28px;
+        line-height: 2.5rem;
+    }
+
+    .descricao {
+        font-size: 18px;
+    }
+
+    .segunda-secao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dpoimento {
+        width: 100%;
+    }
+
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .logoBranca {
+        width: 40%;
+    }
+}
